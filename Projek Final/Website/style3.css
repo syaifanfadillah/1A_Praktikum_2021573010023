@@ -1,0 +1,67 @@
+@media screen and (max-width: 900px){
+    nav{
+        width: 100%;
+    }
+}
+    
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    }
+nav {
+    float: left;
+    margin-top: 0px;
+}
+    
+nav ul{
+    width: 1495px;
+    height: 50px;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline-block;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 45px;/*jarak menu button satu dengan yang lainnya. */
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 15px;
+}
+.d-flex{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.search{
+  margin-top: 100px;
+  padding-left: 50px;
+}
+.drawer__item-item{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+    padding-left: 50px;
+  }
+.lead{
+  font-size: 30pt;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+.module{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 10px;
+  font-size: 75px ;
+}

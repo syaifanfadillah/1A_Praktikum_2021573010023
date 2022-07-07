@@ -1,0 +1,97 @@
+@media screen and (max-width: 900px){
+    nav{
+        width: 100%;
+    }
+}
+    
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+nav {
+    float: left;
+    margin-top: 0px;
+}
+    
+nav ul{
+    width: 1495px;
+    height: 50px;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline-block;
+    width: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 45px;/*jarak menu button satu dengan yang lainnya. */
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 15px;
+}
+.d-flex{
+    width: 35%;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.search{
+  margin-top: 100px;
+  padding-left: 50px;
+}
+.drawer__item-item{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+    padding-left: 50px;
+  }
+
+/* Pisahkan layar menjadi dua */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+  .left{
+    left: 0;
+  }
+  /* Kontrol sisi kanan */
+  .right {
+    right: 0;
+  }
+  
+  /* Jika  ingin konten dipusatkan secara horizontal dan vertikal */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style gambar di dalam container tengah, jika perlu */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+.lead{
+  font-size: 30pt;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+.nav-item{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
